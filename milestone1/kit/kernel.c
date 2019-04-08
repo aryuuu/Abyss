@@ -48,8 +48,10 @@ int main() {
    // interrupt(0x21, 0x6, input, 0x2000, &s1);//executeProgram
    // interrupt(0x21, 0x4, key, "key.txt", &s2); 
    // interrupt(0x21, 0x0, key, 0, 0);
-   interrupt(0x21, 0x4, fff, "key.txt", &suc);
-   printString(fff);
+   printString("Aww Yeah");
+   interrupt(0x21, 0x0, "woohoo", 0, 0);
+   // interrupt(0x21, 0x4, fff, "key.txt", &suc);
+   // printString(fff);
    // printString("\n\0");
    // interrupt(0x21, 0x6, "keyproc", 0x2000, &suc);
 
